@@ -61,7 +61,7 @@ mary.printhair()
 ## mary has-a pet santan
 mary.pet = satan
 
-# frank is=a Employrr
+# frank is=a Employee
 frank = Employee("Frank",120000)
 
 # frank has-a pet rover
