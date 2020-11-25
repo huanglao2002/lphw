@@ -1,0 +1,4 @@
+ex7 
+print(end1 + end2 + end3 + end4 + end5 + end6, end=' ')   #lack a blank between single quotation marks
+ex8
+format output different from define

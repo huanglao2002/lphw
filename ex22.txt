@@ -1,0 +1,101 @@
+print
+("")
+#
++
+-
+/   #除, 除法 / 运算的结果总是浮点数。
+//  #整除
+*
+**  #幂，a ** b
+%  #求余，二进制/星期转换等。
+<
+>
+<=
+>=
+=  #赋值
+print("There are", cars, "cars available.")  #字符串打印1
+print(f"Let's talk about {name}")   #字符串打印2
+{}
+f"{}"
+x = f"There are {tpyes_of_people} types of people."  #字符串 + 变量赋值
+False/True
+
+joke_evaluation = "Isn't that joke so funny?! {}"
+print(joke_evaluation.format(hilarious))  #字符串，format（直接赋值、变量）
+print("Its fleece was white as {}.".format('snow'))
+
+w = "this is the left side of..."
+e = "a string with a right side."
+print(w + e)  #字符串相加
+
+print("." * 10)   #字符串繁衍。。。
+print(end1 + end2 + end3 + end4 + end5 + end6, end=' ')   #字符串拼接，修改输出格式(行末标记符)
+
+formater = "{} {} {} {}"
+print(formater.format(1, 2, 3, 4))
+
+\n
+"""the content"""  #原样打印
+\t
+\\
+\'
+\"
+\a  #响铃
+\b  #退格键
+\f  #进纸符
+\n  #换行符
+\N{name} #
+\r #回车
+\t #制表符
+\uxxx #16位16进制
+\Uxxxxxx #32位16进制
+\v #垂直制表符
+\ooo #八进制000
+\xhh #16进制hh
+input("please input something")
+pydoc input
+python -m pydoc input
+from sys import argv
+script, first, second, third = argv
+argv / input()
+
+prompt = "> "
+likes = input(prompt)
+
+txt = open("filename",rwxat+)
+ ========= ===============================================================
+    Character Meaning
+    --------- ---------------------------------------------------------------
+    'r'       open for reading (default)
+    'w'       open for writing, truncating the file first
+    'x'       create a new file and open it for writing
+    'a'       open for writing, appending to the end of the file if it exists
+    'b'       binary mode
+    't'       text mode (default)
+    '+'       open a disk file for updating (reading and writing)
+    'U'       universal newline mode (deprecated)
+    ========= ===============================================================
+
+    The default mode is 'rt' (open for reading text). For binary random
+    access, the mode 'w+b' opens and truncates the file to 0 bytes, while
+    'r+b' opens the file without truncation. The 'x' mode implies 'w' and
+    raises an `FileExistsError` if the file already exists.
+txt.read()
+txt.close()
+txt.readline()
+txt.truncate()
+txt.wirte("content")  #or from another files.
+txt.seek(0)
+from os.path import exists
+exists(filename)  #True/False
+
+def function_name(*arg):
+    xx
+    return(xx)
+function(arg1, arg2, argn)
+function(20,30)
+function(20 + 30,30 + 40)
+function(amount_of_cheese, amount_of_crackers)
+function(amount_of_cheese + 100, amount_of_crackers + 1000)
+x +=1  # equal x = x + 1
+

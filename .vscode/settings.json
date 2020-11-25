@@ -1,0 +1,9 @@
+{
+    "python.pythonPath": "C:\\Users\\huangj119\\AppData\\Local\\Programs\\Python\\Python37\\python.exe",
+    "python.venvFolders": [
+        "envs",
+        ".pyenv",
+        ".direnv",
+        ".venv"
+    ]
+}
